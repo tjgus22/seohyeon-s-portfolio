@@ -496,7 +496,7 @@ button:focus {
 
 .projects {
   display: grid;
-  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 1rem;
   transition: all 250ms ease-out;
@@ -513,14 +513,14 @@ button:focus {
 }
 
 .project__img {
-  width: 500px;
+  width: 100%;
 }
 
 .project__metadata {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100px;
   height: 100%;
   background-color: var(--color-black);
   opacity: 0;
